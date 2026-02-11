@@ -4,6 +4,7 @@ import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import UserDetail from "./pages/UserDetail";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Products from "./pages/Products";
 import Layout from "./components/Layout";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/users/:id" element={<UserDetail />} />
+          <Route path="/products" element={<Products />} />
         </Route>
       </Routes>
     </BrowserRouter>
